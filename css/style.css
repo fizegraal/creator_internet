@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+  }
+
+
+
+
+
+
+
+
+/* bofvyhubrovuhbguhvbtrohbvovuhbv
+gbrhtgbvuhbtbttibibythtbtuibtyho
+hbuntuiyntubnuytbtyhyuhtbuyhbhub
+cnrejircniejnciejrcneijnrenic
+erjcniejrncijnceijrcenijcrnecijec
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #open_image1{
+    background-image: url(../img/Tim_internet_1.jpg);
+}
+
+#open_image2{
+    background-image: url(../img/Tim_internet_2.jfif);
+}
+
+#open_image3{
+    background-image: url(../img/Tim_internet_3.jfif);
+}
+
+#open_image4{
+    background-image: url(../img/Tim_internet_4.jfif);
+}
+
+
+#open_image5{
+    background-image: url(../img/Tim_internet_5.jfif);
+}
+
+#open_image6{
+    background-image: url(../img/Tim_internet_6.jfif);
+}
+
+
+
+
+.wrap_open_image{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+
+}
+
+
+
+.open_image{
+  height: 75vh;
+  width: 75vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circular-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: darkred;
+  border-radius: 100%;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.cross {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  transition: 0.4s;
+  color: black;
+  background-color: darkred;
+  font-weight: bolder;
+  border-radius: 100%;
+}
+
+
+.circular-button:hover{
+  transition: 0.4s;
+  transform: scale(110%);
+  background-color: red;
+  
+
+}
+
+.cross:hover{
+  transition: 0.4s;
+  background-color: red;
+}
+
